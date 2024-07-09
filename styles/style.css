@@ -1,3 +1,175 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap')
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles  */
+
+
+
+/* first section style  */
+
+.first-section-container{
+    width: 1275px;
+    height: 592px;
+    margin: 0 auto;
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-color: rgba(0,0,0,0.01);
+    background-blend-mode: overlay;
+}
+
+.first-section-content{
+    width: 50%;
+    height: 540px;
+    margin: 22px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first-section-container h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.first-section-content p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+
+.contact-btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 400;
+    padding: 8px 18px 8px 18px;
+    background-color: rgb(13, 19, 33);
+    border-radius: 4px;
+}
+
+
+
+/* web section style  */
+
+.web-section-container{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 74px;
+    background-color: rgba(13, 19, 33, 0.02);
+
+}
+
+
+.web-parent{
+    width: 946px;
+    height: 1235px;
+    margin:0 auto;
+    margin-top: 80px;
+}
+
+.web-parent h1{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.web-title-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 22px;
+    
+}
+
+#group-shared{
+
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+    padding: 48px;
+}
+.web-group1{
+    display: flex;
+        
+}
+
+.group1-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 70%;
+    background-color: white;
+}
+
+.group1-text h3{
+    
+    color: rgba(13, 19, 33, 0.9);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.primary-btn{
+    width: 101px;
+    height: 37px;
+    
+    border: 1px solid rgb(13, 19, 33);
+    padding: 10px 15px 10px 15px;
+    opacity: 0.8;
+
+}
+
+
+
+/* inspiration section style  */
+
+.inspiration-section-container{
+
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 74px;
+    border: 2px solid red;
+}
+
+.inspiration-section-container h1{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.ins-heading{
+    width: 70%;
+    border: 2px solid red;
+    margin: 0 auto 10px;
+}
+
+
+.video1{
+    width: 95%;
+    margin:30px auto;
 }
