@@ -266,31 +266,35 @@ body{
 .support-section-container{
     width: 1140px;
     height: 313px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 75px;
     padding: 64px 48px 64px 48px;
 
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
 }
 
 .support-parent{
     width: 1044px;
     height: 185px;
-    border: 2px solid green;
 }
 
 .support-title{
     width: 730px;
     height: 104px;
     margin: 0 auto;
-    border: 2px solid purple;
 }
 
 .support-title h1{
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
 
 
 }
@@ -299,7 +303,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
     margin-top: 16px;
 }
 
@@ -309,5 +313,24 @@ body{
     height: 57px;
     margin: 0 auto;
     margin-top: 24px;
-    border: 2px solid orange;
+}
+
+.feedback-box{
+    width: 548px;
+    height: 52px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background-color: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+
+}
+
+.submit-btn{
+    width: 120px;
+    height: 52px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    align-items: right;
+    background-color: rgb(255, 255, 255);
 }
