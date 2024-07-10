@@ -10,11 +10,10 @@ body{
     padding: 0;
 }
 
-/* shared styles  */
-
 
 
 /* first section style  */
+    /* banner design  */
 
 .first-section-container{
     width: 1275px;
@@ -176,7 +175,6 @@ body{
 }
 
 
-
 .video1{
     width: 100%;
     height: 100%;
@@ -189,4 +187,127 @@ body{
     height: 100%;
     margin-top: 48px;
 
+}
+
+
+
+/* target section style  */
+
+.target-section-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+
+.target-upper-content{
+    width: 946px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.target-upper-content h1{
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-upper-content p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.target-box-container{
+    width: 1140px;
+    height: 299px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-box{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    padding: 40px;
+
+    
+}
+
+.skill-text{
+    width: 284px;
+    height: 139px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-text p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #05080e;
+}
+
+.learn-more{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+
+/* support section style  */
+
+.support-section-container{
+    width: 1140px;
+    height: 313px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 64px 48px 64px 48px;
+
+}
+
+.support-parent{
+    width: 1044px;
+    height: 185px;
+    border: 2px solid green;
+}
+
+.support-title{
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    border: 2px solid purple;
+}
+
+.support-title h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    /* color: rgb(255, 255, 255); */
+
+
+}
+
+.support-title p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    /* color: rgb(255, 255, 255); */
+    margin-top: 16px;
+}
+
+
+.support-box{
+    width: 684px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border: 2px solid orange;
 }
