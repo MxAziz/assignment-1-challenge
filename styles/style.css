@@ -269,6 +269,7 @@ body{
     margin: 0 auto;
     margin-top: 75px;
     padding: 64px 48px 64px 48px;
+    border-radius: 16px;
 
     background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
     background-repeat: no-repeat;
@@ -334,3 +335,47 @@ body{
     align-items: right;
     background-color: rgb(255, 255, 255);
 }
+
+
+/* footer style  */
+
+.footer-parent{
+    width: 1270px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 32px 130px 32px 130px;
+    margin-top: 78px;
+    border-radius: 16px;
+
+    background-color: rgba(13, 19, 33, 0.03);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 615px;
+
+}
+
+.f-text{
+    width: 456px;
+    height: 24px;
+}
+
+.f-text h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);    
+}
+
+.f-icon{
+    width: 157.01px;
+    height: 36px;
+    align-items: center;
+}
+
+.link-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* ---END--- */
