@@ -19,7 +19,7 @@ body{
     width: 1275px;
     height: 592px;
     margin: 0 auto;
-    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-image: url(../assets/web-banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,6 +110,7 @@ body{
 }
 .web-group1{
     display: flex;
+    
         
 }
 
@@ -271,7 +272,7 @@ body{
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
 
-    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
